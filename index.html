@@ -17,23 +17,23 @@
             <div class="link">
               <a href="#contact-details">Contact Details</a>
             </div>
-            <div class="bar">|</div>
+
             <div class="link">
               <a href="#personal-statement">Personal Statement</a>
             </div>
-            <div class="bar">|</div>
+
             <div class="link">
               <a href="#skills-attributes">Skills and Attributes</a>
             </div>
-            <div class="bar">|</div>
+
             <div class="link">
               <a href="#employment">Employment</a>
             </div>
-            <div class="bar">|</div>
+
             <div class="link"><a href="#volunteering">Volunteering</a></div>
-            <div class="bar">|</div>
+
             <div class="link"><a href="#hobbies">Hobbies</a></div>
-            <div class="bar">|</div>
+
             <div class="link">
               <a
                 href="http://linkedin.com"
@@ -57,7 +57,7 @@
               />
             </picture>
           </div>
-          <div class="photos">
+          <div class="photos testimonial">
             <picture>
               <source type="image/avif" srcset="mulder.avif" />
               <source type="image/webp" srcset="mulder.webp" />
@@ -66,6 +66,14 @@
                 alt="Tabby and white Maine Coon cat in a box"
               />
             </picture>
+            <div class="overlay">
+              <div class="quote">
+                <p>
+                  "I have to say, it's one of the more fluffy and capable tails
+                  that I have seen in a long time"
+                </p>
+              </div>
+            </div>
           </div>
           <div class="photos">
             <picture>
@@ -179,11 +187,13 @@
             I received a positive reference from this time which prospective
             employers are welcome to listen to to find out more about my work:
           </p>
-          <audio controls>
-            <source src="mulder-reference.ogg" type="audio/ogg" />
-            <source src="mulder-reference.mp3" type="audio/mpeg" />
-            Unfortunately, this audio is not supported by your browser!
-          </audio>
+          <div class="flex media">
+            <audio controls>
+              <source src="mulder-reference.ogg" type="audio/ogg" />
+              <source src="mulder-reference.mp3" type="audio/mpeg" />
+              Unfortunately, this audio is not supported by your browser!
+            </audio>
+          </div>
         </section>
         <section>
           <h3 id="hobbies">Hobbies and Sports</h3>
@@ -197,8 +207,8 @@
               snow stuff once with my colleague:
             </li>
           </ul>
-          <div class="video">
-            <video src="mulder-snow.mp4" controls width="304" height="540">
+          <div class="flex media video">
+            <video src="mulder-snow.mp4" controls>
               Unfortunately, this video is not supported by your browser!
             </video>
           </div>
